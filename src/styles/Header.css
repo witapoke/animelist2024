@@ -1,0 +1,49 @@
+header {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  height: 55px;
+  margin: 0px 400px 0px 400px;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-size: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.sign-up {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: space-evenly;
+  width: 200px;
+}
+
+button {
+  height: 25px;
+  width: 70px;
+  cursor: pointer;
+}
+
+.login-btn {
+  background-color: white;
+  color: darkblue;
+}
+
+.sign-btn {
+  background-color: darkblue;
+  color: white;
+}
+
+.login-btn:hover {
+  background-color: rgb(72, 72, 161);
+  color: white;
+}
+
+.sign-btn:hover {
+  background-color: rgb(197, 188, 188);
+  color: white;
+}

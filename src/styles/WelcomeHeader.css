@@ -1,0 +1,10 @@
+.wh-container {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  padding-left: 10px;
+  height: 30px;
+  margin: 0px 300px 0px 300px;
+  background-color: #e1e7f5;
+  border-bottom: 1px solid #1c439b;
+}
